@@ -1,0 +1,41 @@
+.div {
+    flex-direction: row;
+    margin: 2px 5px 2px 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow-x: hidden;
+    resize: horizontal;
+    display: flex;
+    height:fit-content;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.label {
+    color:brown;;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+    display: list-item;
+    justify-content: space-around;
+}
+
+button{
+    background-color: brown;
+    float: right;
+    margin-bottom: 20px;
+    color:aquamarine;
+}
+
+
+select,
+textarea {
+    color:brown;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+    background-color: antiquewhite; 
+    align-items: center;
+}
+
+.input {
+    background-color:brown;
+}

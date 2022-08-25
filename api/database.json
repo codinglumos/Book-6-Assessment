@@ -1,0 +1,90 @@
+{
+  "penPals": [
+    {
+      "id": 1,
+      "name": "Dali Llama"
+    },
+    {
+      "id": 2,
+      "name": "Hermione Granger"
+    },
+    {
+      "id": 3,
+      "name": "Albus Dumbledore"
+    },
+    {
+      "id": 4,
+      "name": "Avatar Kyoshi"
+    }
+  ],
+  "senders": [
+    {
+      "id": 1,
+      "name": "Olivia Ooten"
+    },
+    {
+      "id": 2,
+      "name": "Faith Cox"
+    },
+    {
+      "id": 3,
+      "name": "Luna Lovegood"
+    },
+    {
+      "id": 4,
+      "name": "Hillbilly Jack"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "Affectionate"
+    },
+    {
+      "id": 2,
+      "name": "Helpful"
+    },
+    {
+      "id": 3,
+      "name": "Indignant"
+    },
+    {
+      "id": 4,
+      "name": "Pensive"
+    }
+  ],
+  "letters": [
+    {
+      "id": 1,
+      "letterBody": "How's the afterlife?",
+      "senderId": 2,
+      "topicId": 4,
+      "reservationDate": "2022-08-30",
+      "penPalId": 4
+    },
+    {
+      "id": 2,
+      "letterBody": "Can I come to Hogwarts?",
+      "senderId": 1,
+      "topicId": 4,
+      "reservationDate": "2022-09-14",
+      "penPalId": 3
+    },
+    {
+      "senderId": "3",
+      "penPalId": "3",
+      "reservationDate": 1661462219926,
+      "letterBody": "This is crazy",
+      "topicId": "1",
+      "id": 3
+    },
+    {
+      "senderId": "1",
+      "penPalId": "1",
+      "reservationDate": 1661463287770,
+      "letterBody": "Do you like Takis?",
+      "topicId": "1",
+      "id": 4
+    }
+  ]
+}

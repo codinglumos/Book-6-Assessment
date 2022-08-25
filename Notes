@@ -1,0 +1,25 @@
+/* Red (!) Blue (?) Green (*) Yellow (^) Pink (&) Purple (~)
+!Modules Needed:
+?-dataAccess.js
+todo -main.js    
+^-LetterForm.js
+&-PenPalSociety.js
+~-Choices.js
+-main.css   -LetterForm.css
+
+?Holds the export functions for to access the data from json
+?imports the API and sets the database with open object array
+todo imports the fetch requests from dataAccess and the function 
+todo from PenPalSociety. It also renders the html and holds the 
+todo event listener for the state change
+^imports the sendrequest from dataAccess, event listener with function
+^specifying data send to API. Also an exported fucntion for the html format
+^for the LetterForm
+& imports LetterForm and choices. A function to house the html format for
+& both LetterForm and Choices
+~import get, delete, and save functions from dataAccess
+~event listener to delete letters
+~exported function to submit your choices for the select and delete options
+~event listener and fucntion to add keys to new object in completed letters
+format css for the whole document and the letterform specifically
+*/

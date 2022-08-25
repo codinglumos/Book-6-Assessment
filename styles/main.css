@@ -1,0 +1,32 @@
+@import "LetterForm.css";
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/*Typography
+--------------------------------------------------------------*/
+body {
+	color:brown;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+  display: flex;
+  justify-content: space-around; 
+  align-items: stretch;
+  background-image: url("https://t3.ftcdn.net/jpg/03/66/10/14/360_F_366101427_8yazUJK82fDrLi4YtpnQO3DJ4dTygxoe.jpg")
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+  justify-content: center;
+  border: 3px brown solid;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.eachcompletedletter {
+  background-color: aquamarine;
+  font-style: italic;
+  font-weight: lighter;
+  font-stretch: expanded;
+  font-family: cursive;
+}
