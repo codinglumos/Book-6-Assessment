@@ -55,14 +55,6 @@
   ],
   "letters": [
     {
-      "id": 1,
-      "letterBody": "How's the afterlife?",
-      "senderId": 2,
-      "topicId": 4,
-      "reservationDate": "2022-08-30",
-      "penPalId": 4
-    },
-    {
       "id": 2,
       "letterBody": "Can I come to Hogwarts?",
       "senderId": 1,
@@ -80,11 +72,11 @@
     },
     {
       "senderId": "1",
-      "penPalId": "1",
-      "reservationDate": 1661463287770,
-      "letterBody": "Do you like Takis?",
+      "penPalId": "2",
+      "reservationDate": 1661525028577,
+      "letterBody": "This works!",
       "topicId": "1",
-      "id": 4
+      "id": 5
     }
   ]
 }

@@ -1,41 +1,49 @@
-.div {
-    flex-direction: row;
-    margin: 2px 5px 2px 5px;
-    word-wrap: break-word;
-    word-break: break-all;
-    overflow-x: hidden;
-    resize: horizontal;
-    display: flex;
-    height:fit-content;
-    margin-top: 35px;
-    margin-bottom: 50px;
-}
-
 .label {
     color:brown;;
 	font-family: "Comfortaa", Arial, sans-serif;
 	font-size: 14px;
-    display: list-item;
+    display: flex;
     justify-content: space-around;
+    font-size: 22px;
+    border: 3px brown solid;
+    text-align: center;
+    align-items: center;
+    outline: 2px solid rgba(158, 70, 70, 0.26);
+    transition: outline 1s ease 0s;
+    border-radius: 10px;
+    line-height: 26px;
+    margin-bottom: 10px;
 }
 
 button{
     background-color: brown;
-    float: right;
-    margin-bottom: 20px;
+    float: top;
     color:aquamarine;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
 }
-
 
 select,
 textarea {
     color:brown;
 	font-family: "Comfortaa", Arial, sans-serif;
-	font-size: 14px;
+	font-size: 20px;
     background-color: antiquewhite; 
     align-items: center;
+    border-radius: 10px;
+    display: flex;
+    line-height: 26px;
+    margin-bottom: 10px;
+    border: 2px brown solid;
 }
 
 .input {
-    background-color:brown;
+    border:2px brown solid;
+    outline: 2px solid rgba(158, 70, 70, 0.26);
+    transition: outline 1s ease 0s;
+    line-height: 26px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    background-color: antiquewhite;
 }

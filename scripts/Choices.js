@@ -39,10 +39,11 @@ const foundSender = senders.find(
 //const letterParts = foundTopic + foundpenPal + foundSender
 //const letterString = letterParts.toLocaleString()
     return `<div class=eachcompletedletter id="letter--${letter.id}">
-              <p>Dear ${foundpenPal.name}, </p>
-              <p>${letter.letterBody}</p>
-              <p>${foundSender.name}</p>
-              <p>${foundTopic.name}--${letter.reservationDate}
+              <p>Dear ${foundpenPal.name},</p>
+              <p> ${letter.letterBody}</p>
+              <p>      ${foundSender.name}</p>
+              <p>${foundTopic.name}
+              <p>${letter.reservationDate}</p>
               
 <button class="letter__delete"
       id="letter--${letter.id}">
@@ -88,7 +89,7 @@ export const Topics = () => {
     ${
         topics.map(
             topic => {
-                return `<input type="radio" name="servicetopic" value="${topic.id}"/><label>
+                return `<input type="radio" name="servicetopic" value="${topic.id}"/><label class="input">
                 ${topic.name}</label>`
             }
         ).join("")

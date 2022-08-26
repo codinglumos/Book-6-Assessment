@@ -41,7 +41,6 @@ export const LetterForm = () => {
             ${PenPals()}
         </div>
         <div class="field">
-            <label class="label" for="serviceletterEntry">Letter</label>
             <textarea v-model="message" placeholder="letter entry" name="serviceletterEntry"></textarea>
             </div>
         <div class="field" name="sender">

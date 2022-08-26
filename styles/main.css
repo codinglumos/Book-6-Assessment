@@ -13,14 +13,16 @@ body {
   background-image: url("https://t3.ftcdn.net/jpg/03/66/10/14/360_F_366101427_8yazUJK82fDrLi4YtpnQO3DJ4dTygxoe.jpg")
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
   justify-content: center;
   border: 3px brown solid;
   text-align: center;
   align-items: center;
-  
+  outline: 2px solid rgba(158, 70, 70, 0.26);
+  transition: outline 1s ease 0s;
+  border-radius: 10px;
 }
 
 .eachcompletedletter {
@@ -29,4 +31,24 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: lighter;
   font-stretch: expanded;
   font-family: cursive;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+  justify-content: center;
+  border: 3px brown solid;
+  text-align: center;
+  align-items: center;
+  outline: 2px solid rgba(158, 70, 70, 0.26);
+  transition: outline 1s ease 0s;
+  border-radius: 10px;
+  color:white;
 }
